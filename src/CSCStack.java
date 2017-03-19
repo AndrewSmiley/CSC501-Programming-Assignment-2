@@ -1,15 +1,30 @@
 /**
  * Created by Andrew on 3/17/17.
  */
+
+/**
+ * This class represents our Stack ADT, which is an implementation of a standard stack
+ * Methods are: push, pop, peek, (s/g)etSize, (s/g)etTop and validate
+ * Two members: size and top
+ *
+ * For details on the members or methods, please see the inline comments
+ */
 public class CSCStack {
+    /**
+     * This is a simple custom exception class, we throw exceptions when we are peeking or popping on an empty
+     * stack. This does not NEED to be here, but for shits and giggles let's add it.
+     */
     class CSCStackException extends Exception
     {
-        //Parameterless Constructor
-        public CSCStackException() {}
 
-        //Constructor that accepts a message
+        /**
+         * Only one constructor for this one, which takes a string argument, which represents the error message to convey
+         * when we throw an exception
+         * @param message the message to give with our excpetion
+         */
         public CSCStackException(String message)
         {
+            //simply call the parent constructor (Exception() class)
             super(message);
         }
     }
@@ -122,7 +137,7 @@ public class CSCStack {
         int _size=0;
         Node temp = top;
         while(temp != null){
-            //count2 the node
+            //count the node
             _size++;
             //move to the next
             temp = temp.node();

@@ -12,9 +12,12 @@ public class Node {
      */
     private Integer value;
 
+
+
     /**
      *This field refers to the node node in the linked list
      */
+
     private Node node;
 
     /**
@@ -31,6 +34,14 @@ public class Node {
     public Node(Integer value, Node node) {
         this.value = value;
         this.node = node;
+    }
+
+    /**
+     * Method to get the node associated with the current node
+     * @return the node stored in the current node's node member
+     */
+    public Node getNode() {
+        return node;
     }
 
     /**

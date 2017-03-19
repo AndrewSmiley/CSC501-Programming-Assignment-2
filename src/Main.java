@@ -11,6 +11,24 @@ public class Main {
 
 
     public static void main(String[] args) {
+        CSCStack stack = new CSCStack();
+        CSCQueue queue = new CSCQueue();
+//        for(int i =0; i < 10; i++){
+//            stack.push(i);
+//            queue.enqueue(i);
+//        }
+//        for(int i =0; i < 10; i++){
+//            try {
+//                System.out.println("Value stored in Queue: "+ queue.dequeue());
+//                System.out.println("Value stored in Stack: " + stack.pop());
+//            } catch (CSCQueue.CSCQueueException e) {
+//                e.printStackTrace();
+//            } catch (CSCStack.CSCStackException e) {
+//                e.printStackTrace();
+//            }
+//
+//        }
+
         int[] registrarArray;
 
         //outer loop to simulate different numbers of registrars
