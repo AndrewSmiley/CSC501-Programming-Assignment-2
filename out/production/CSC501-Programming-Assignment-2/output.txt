@@ -1,0 +1,12 @@
+Running simulation using Stack
+Registrars            Students              Total Time            Avg Wait              Avg Process           Longest
+2                     905                   1250                  375.82                3.91                  1247
+3                     855                   822                   172.71                2.82                  819
+4                     882                   660                   95.23                 2.24                  657
+5                     892                   541                   37.05                 1.78                  519
+Running simulation using Queue
+Registrars            Students              Total Time            Avg Wait              Avg Process           Longest
+2                     870                   1277                  395.54                4.30                  797
+3                     898                   873                   184.65                2.83                  394
+4                     877                   660                   86.33                 2.20                  182
+5                     894                   534                   26.72                 1.76                  55

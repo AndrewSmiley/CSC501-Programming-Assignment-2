@@ -4,30 +4,13 @@
 
 /**
  * This class represents our Stack ADT, which is an implementation of a standard stack
- * Methods are: push, pop, peek, (s/g)etSize, (s/g)etTop and validate
+ * Methods are: push, pop & peek
  * Two members: size and top
  *
  * For details on the members or methods, please see the inline comments
  */
 public class CSCStack {
-    /**
-     * This is a simple custom exception class, we throw exceptions when we are peeking or popping on an empty
-     * stack. This does not NEED to be here, but for shits and giggles let's add it.
-     */
-    class CSCStackException extends Exception
-    {
 
-        /**
-         * Only one constructor for this one, which takes a string argument, which represents the error message to convey
-         * when we throw an exception
-         * @param message the message to give with our excpetion
-         */
-        public CSCStackException(String message)
-        {
-            //simply call the parent constructor (Exception() class)
-            super(message);
-        }
-    }
     /**
      * This is the top of our linked node(s). If this is null, then our stack is empty
      */
@@ -45,16 +28,6 @@ public class CSCStack {
         this.size=0; //just set the size =0
     }
 
-    /**
-     * Constructor which allows us to pass in a node as a starting object
-     * If this is called, we must set the size to 1 because there is one item in our stack
-     * @param top the first node we add to the stack
-     */
-    public CSCStack(Node top) {
-
-        this.top = top; //set the node we pass in as the top node
-        this.size=1;//set the size =1
-    }
 
     /**
      * Add a value to the stack by adding a node to the stack
@@ -64,17 +37,17 @@ public class CSCStack {
         //create a temp node with the value and the top as the next node
         Node temp = new Node(value, top);
         //change the top node from the current top to our new node (LIFO)
-        this.setTop(temp);
+        this.top = temp;
         this.size++;
 
     }
 
     /**
      * Get the top item from the stack.
-     * @throws CSCStack.CSCStackException this method will throw an exception if you attempt to pop when it is empty
+     * @throws Exception this method will throw an exception if you attempt to pop when it is empty
      * @return the value from the top item in the stack
      */
-    public Integer pop() throws CSCStackException {
+    public Integer pop() throws Exception {
         //check if the stack is empty
         if(!this.isEmpty()){
             //get the value of the top of the node
@@ -87,20 +60,21 @@ public class CSCStack {
             return val;
         }
         //if it is, go ahead and throw the exception
-        throw new CSCStackException("The stack you are trying to pop() is empty.");
+        throw new Exception("The stack you are trying to pop() is empty.");
     }
 
     /**
      * Method to get the value stored at the top of our stack but retain its position, vs pop which will return the value and
      * remove the top item from the stack
+     * @throws Exception this method will throw an exception if you attempt to peek when it is empty
      * @return the value of the top item in the stack
      */
-    public Integer peek() throws CSCStackException {
+    public Integer peek() throws Exception {
         //make sure that our stack is not empty
         if(!this.isEmpty())
             return top.getValue(); //return the top value from our stack but not delete it
         //otherwise throw the exception
-        throw new CSCStackException("The stack you are trying to pop() is empty.");
+        throw new Exception("The stack you are trying to pop() is empty.");
     }
     /**
      * Method to determine if our stack is empty or not
@@ -109,31 +83,7 @@ public class CSCStack {
     public boolean isEmpty(){
         /**Check both the size and the top node. if the size is 0 and the top node is not null (or visa versa),
         then something is fubar in our stack */
-        return (this.size ==0  && this.getTop() == null);
-    }
-    /**
-     * Get the size of our stack, i.e. the number of items on it
-     * @return
-     */
-    public int getSize() {
-        return size;
-    }
-
-    /**
-     * Get the bottom node in our stack. This should never be called
-     * @return
-     */
-    public Node getTop() {
-        return top;
-    }
-
-    /**
-     * Set the bottom node of our stack. This should only be called when pushing to an empty stack
-     * This method is private so it can only be used internally by our stack class
-     * @param top
-     */
-    private void setTop(Node top) {
-        this.top = top;
+        return (this.size ==0  && this.top == null);
     }
 
 }
