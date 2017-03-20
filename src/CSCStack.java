@@ -1,5 +1,5 @@
 /**
- * Created by Andrew on 3/17/17.
+ * Created by Andrew on 3/15/17.
  */
 
 /**
@@ -42,18 +42,18 @@ public class CSCStack {
      * Default, no argument constructor
      */
     public CSCStack() {
-        this.size=0;
+        this.size=0; //just set the size =0
     }
 
     /**
      * Constructor which allows us to pass in a node as a starting object
      * If this is called, we must set the size to 1 because there is one item in our stack
-     * @param top
+     * @param top the first node we add to the stack
      */
     public CSCStack(Node top) {
 
-        this.top = top;
-        this.size=1;
+        this.top = top; //set the node we pass in as the top node
+        this.size=1;//set the size =1
     }
 
     /**
@@ -65,6 +65,7 @@ public class CSCStack {
         Node temp = new Node(value, top);
         //change the top node from the current top to our new node (LIFO)
         this.setTop(temp);
+        this.size++;
 
     }
 
@@ -74,14 +75,18 @@ public class CSCStack {
      * @return the value from the top item in the stack
      */
     public Integer pop() throws CSCStackException {
+        //check if the stack is empty
         if(!this.isEmpty()){
             //get the value of the top of the node
             Integer val = top.getValue();
             //remove the top node and go to the next
             top = top.node();
+            //decrement size
+            size--;
             //return the value of the node we just deleted
             return val;
         }
+        //if it is, go ahead and throw the exception
         throw new CSCStackException("The stack you are trying to pop() is empty.");
     }
 
@@ -91,8 +96,10 @@ public class CSCStack {
      * @return the value of the top item in the stack
      */
     public Integer peek() throws CSCStackException {
+        //make sure that our stack is not empty
         if(!this.isEmpty())
             return top.getValue(); //return the top value from our stack but not delete it
+        //otherwise throw the exception
         throw new CSCStackException("The stack you are trying to pop() is empty.");
     }
     /**
@@ -127,22 +134,6 @@ public class CSCStack {
      */
     private void setTop(Node top) {
         this.top = top;
-    }
-
-    /**
-     * Simple method to validate our stack
-     * @return
-     */
-    public boolean validate(){
-        int _size=0;
-        Node temp = top;
-        while(temp != null){
-            //count the node
-            _size++;
-            //move to the next
-            temp = temp.node();
-        }
-        return (this.getSize() == _size);
     }
 
 }

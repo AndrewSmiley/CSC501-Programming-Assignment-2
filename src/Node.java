@@ -1,9 +1,10 @@
 /**
- * Created by Andrew on 3/17/17.
+ * Created by Andrew on 3/15/17.
  */
 
 /**
  * This is our generic node class.
+ * Grabbed this from CSC 501 programming assingment one
  */
 public class Node {
 

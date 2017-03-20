@@ -73,17 +73,17 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="7" selection-start="910" selection-end="910" vertical-scroll-proportion="-6.923077" vertical-offset="435" max-vertical-offset="1530">
+            <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.1923075" vertical-offset="0" max-vertical-offset="1545">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1429#1430#0" expanded="true" />
-                <element signature="e#1461#1462#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1788#1789#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+                <element signature="e#1810#1811#0" expanded="true" />
+                <element signature="e#1844#1845#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,37 +92,55 @@
       <file leaf-file-name="CSCStack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSCStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="336" selection-end="1021" vertical-scroll-proportion="-5.1923075" vertical-offset="45" max-vertical-offset="2310">
+            <state line="4" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="2175">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#3724#3725#0" expanded="true" />
-                <element signature="e#3751#3752#0" expanded="true" />
-                <element signature="e#3879#3880#0" expanded="true" />
-                <element signature="e#3905#3906#0" expanded="true" />
-                <element signature="e#4158#4159#0" expanded="true" />
-                <element signature="e#4188#4189#0" expanded="true" />
+                <element signature="e#4090#4091#0" expanded="true" />
+                <element signature="e#4117#4118#0" expanded="true" />
+                <element signature="e#4245#4246#0" expanded="true" />
+                <element signature="e#4271#4272#0" expanded="true" />
+                <element signature="e#4524#4525#0" expanded="true" />
+                <element signature="e#4554#4555#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSCQueue.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="output.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="89" selection-start="1185" selection-end="1186" vertical-scroll-proportion="0.35031846" vertical-offset="0" max-vertical-offset="471">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSCQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CSCQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="7" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-2.6305733" vertical-offset="1914" max-vertical-offset="2385">
+            <state line="217" column="7" selection-start="6666" selection-end="6666" vertical-scroll-proportion="-125.19231" vertical-offset="0" max-vertical-offset="3705">
               <folding>
-                <element signature="e#3473#3474#0" expanded="true" />
-                <element signature="e#3500#3501#0" expanded="true" />
-                <element signature="e#3715#3716#0" expanded="true" />
-                <element signature="e#3747#3748#0" expanded="true" />
-                <element signature="e#3902#3903#0" expanded="true" />
-                <element signature="e#3930#3931#0" expanded="true" />
-                <element signature="e#4110#4111#0" expanded="true" />
-                <element signature="e#4144#4145#0" expanded="true" />
-                <element signature="e#4300#4301#0" expanded="true" />
-                <element signature="e#4327#4328#0" expanded="true" />
-                <element signature="e#4473#4474#0" expanded="true" />
-                <element signature="e#4505#4506#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#5464#5465#0" expanded="true" />
+                <element signature="e#5492#5493#0" expanded="true" />
+                <element signature="e#5649#5650#0" expanded="true" />
+                <element signature="e#5683#5684#0" expanded="true" />
+                <element signature="e#5823#5824#0" expanded="true" />
+                <element signature="e#5850#5851#0" expanded="true" />
+                <element signature="e#5974#5975#0" expanded="true" />
+                <element signature="e#6006#6007#0" expanded="true" />
+                <element signature="e#6124#6125#0" expanded="true" />
+                <element signature="e#6157#6158#0" expanded="true" />
+                <element signature="e#6306#6307#0" expanded="true" />
+                <element signature="e#6350#6351#0" expanded="true" />
+                <element signature="e#6516#6517#0" expanded="true" />
+                <element signature="e#6545#6546#0" expanded="true" />
+                <element signature="e#6705#6706#0" expanded="true" />
+                <element signature="e#6741#6742#0" expanded="true" />
+                <element signature="e#6871#6872#0" expanded="true" />
+                <element signature="e#6901#6902#0" expanded="true" />
+                <element signature="e#7033#7034#0" expanded="true" />
+                <element signature="e#7071#7072#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +149,20 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="35" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1365">
-              <folding />
+            <state line="3" column="3" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1879#1880#0" expanded="true" />
+                <element signature="e#1921#1922#0" expanded="true" />
+                <element signature="e#2121#2122#0" expanded="true" />
+                <element signature="e#2175#2176#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2733#2734#0" expanded="true" />
+                <element signature="e#2797#2798#0" expanded="true" />
+                <element signature="e#6050#6077#0" expanded="true" />
+                <element signature="e#12029#12056#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,10 +180,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/CSCStack.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/CSCQueue.java" />
+        <option value="$PROJECT_DIR$/src/CSCStack.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
       </list>
     </option>
   </component>
@@ -280,7 +311,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CSC501-Programming-Assignment-2" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -509,17 +546,20 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fc757efe-33a8-4de4-aa65-02f9230dbed5" name="Default" comment="" />
       <created>1489802334953</created>
       <updated>1489802334953</updated>
-      <workItem from="1489802338251" duration="8526000" />
+      <workItem from="1489802338251" duration="19990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8526000" />
+    <option name="totallyTimeSpent" value="19990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
@@ -530,10 +570,10 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -574,62 +614,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/CSCQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="7" selection-start="910" selection-end="910" vertical-scroll-proportion="-6.923077" vertical-offset="435" max-vertical-offset="1530">
+        <state line="217" column="7" selection-start="6666" selection-end="6666" vertical-scroll-proportion="-125.19231" vertical-offset="0" max-vertical-offset="3705">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSCStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="336" selection-end="1021" vertical-scroll-proportion="-5.1923075" vertical-offset="45" max-vertical-offset="2310">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#3724#3725#0" expanded="true" />
-            <element signature="e#3751#3752#0" expanded="true" />
-            <element signature="e#3879#3880#0" expanded="true" />
-            <element signature="e#3905#3906#0" expanded="true" />
-            <element signature="e#4158#4159#0" expanded="true" />
-            <element signature="e#4188#4189#0" expanded="true" />
+            <element signature="e#5464#5465#0" expanded="true" />
+            <element signature="e#5492#5493#0" expanded="true" />
+            <element signature="e#5649#5650#0" expanded="true" />
+            <element signature="e#5683#5684#0" expanded="true" />
+            <element signature="e#5823#5824#0" expanded="true" />
+            <element signature="e#5850#5851#0" expanded="true" />
+            <element signature="e#5974#5975#0" expanded="true" />
+            <element signature="e#6006#6007#0" expanded="true" />
+            <element signature="e#6124#6125#0" expanded="true" />
+            <element signature="e#6157#6158#0" expanded="true" />
+            <element signature="e#6306#6307#0" expanded="true" />
+            <element signature="e#6350#6351#0" expanded="true" />
+            <element signature="e#6516#6517#0" expanded="true" />
+            <element signature="e#6545#6546#0" expanded="true" />
+            <element signature="e#6705#6706#0" expanded="true" />
+            <element signature="e#6741#6742#0" expanded="true" />
+            <element signature="e#6871#6872#0" expanded="true" />
+            <element signature="e#6901#6902#0" expanded="true" />
+            <element signature="e#7033#7034#0" expanded="true" />
+            <element signature="e#7071#7072#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="35" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1365">
-          <folding />
+        <state line="3" column="3" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1879#1880#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2733#2734#0" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#6050#6077#0" expanded="true" />
+            <element signature="e#12029#12056#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CSCQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="7" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-2.6305733" vertical-offset="1914" max-vertical-offset="2385">
+        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.1923075" vertical-offset="0" max-vertical-offset="1545">
           <folding>
-            <element signature="e#3473#3474#0" expanded="true" />
-            <element signature="e#3500#3501#0" expanded="true" />
-            <element signature="e#3715#3716#0" expanded="true" />
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3902#3903#0" expanded="true" />
-            <element signature="e#3930#3931#0" expanded="true" />
-            <element signature="e#4110#4111#0" expanded="true" />
-            <element signature="e#4144#4145#0" expanded="true" />
-            <element signature="e#4300#4301#0" expanded="true" />
-            <element signature="e#4327#4328#0" expanded="true" />
-            <element signature="e#4473#4474#0" expanded="true" />
-            <element signature="e#4505#4506#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSCStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="2175">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4090#4091#0" expanded="true" />
+            <element signature="e#4117#4118#0" expanded="true" />
+            <element signature="e#4245#4246#0" expanded="true" />
+            <element signature="e#4271#4272#0" expanded="true" />
+            <element signature="e#4524#4525#0" expanded="true" />
+            <element signature="e#4554#4555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="89" selection-start="1185" selection-end="1186" vertical-scroll-proportion="0.35031846" vertical-offset="0" max-vertical-offset="471">
+          <folding />
         </state>
       </provider>
     </entry>
